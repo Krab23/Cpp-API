@@ -1,5 +1,4 @@
 #include "main.h"
-
 #include "cpp-httplib/httplib.h"
 
 void handle_request(const httplib::Request &req, httplib::Response &res) {
