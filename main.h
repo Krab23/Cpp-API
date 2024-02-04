@@ -1,7 +1,10 @@
-#ifndef CPPHTTP_MAIN_H_
+#ifndef CPPHTTP_MAIN_H_    
 #define CPPHTTP_MAIN_H_
-#include <arpa/inet.h>
+#ifndef LIBCURL_CURL_H_
+#define LIBCURL_CURL_H_
 
-int main();
+#include <curl/curl.h>
+#include <iostream>
 
-#endif  //   CPPAPI_MAIN_H_ 
+#endif  // LIBCURL_CURL_H
+#endif  //   CPPAP:I_MAIN_H_
